@@ -16,6 +16,7 @@
 		F40C2CA127410161000E4387 /* MemeMakerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F40C2CA027410161000E4387 /* MemeMakerTests.swift */; };
 		F40C2CAB27410161000E4387 /* MemeMakerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F40C2CAA27410161000E4387 /* MemeMakerUITests.swift */; };
 		F40C2CAD27410161000E4387 /* MemeMakerUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F40C2CAC27410161000E4387 /* MemeMakerUITestsLaunchTests.swift */; };
+		F40C2CBA27410F28000E4387 /* CaptionChoice.swift in Sources */ = {isa = PBXBuildFile; fileRef = F40C2CB927410F28000E4387 /* CaptionChoice.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		F40C2CA627410161000E4387 /* MemeMakerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MemeMakerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F40C2CAA27410161000E4387 /* MemeMakerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MemeMakerUITests.swift; sourceTree = "<group>"; };
 		F40C2CAC27410161000E4387 /* MemeMakerUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MemeMakerUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		F40C2CB927410F28000E4387 /* CaptionChoice.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CaptionChoice.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -102,6 +104,7 @@
 				F40C2C8927410160000E4387 /* AppDelegate.swift */,
 				F40C2C8B27410160000E4387 /* SceneDelegate.swift */,
 				F40C2C8D27410160000E4387 /* ViewController.swift */,
+				F40C2CB927410F28000E4387 /* CaptionChoice.swift */,
 				F40C2C8F27410160000E4387 /* Main.storyboard */,
 				F40C2C9227410161000E4387 /* Assets.xcassets */,
 				F40C2C9427410161000E4387 /* LaunchScreen.storyboard */,
@@ -261,6 +264,7 @@
 				F40C2C8E27410160000E4387 /* ViewController.swift in Sources */,
 				F40C2C8A27410160000E4387 /* AppDelegate.swift in Sources */,
 				F40C2C8C27410160000E4387 /* SceneDelegate.swift in Sources */,
+				F40C2CBA27410F28000E4387 /* CaptionChoice.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -456,7 +460,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -484,7 +488,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
